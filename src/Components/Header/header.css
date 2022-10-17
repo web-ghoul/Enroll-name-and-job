@@ -1,0 +1,56 @@
+header .contain {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+header .contain img {
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+
+header .contain h1 {
+    font-size: 40px;
+    font-weight: 1000;
+    color: #111;
+}
+
+header .contain p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0099e5;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: 80%;
+}
+
+@media (max-width:992px) {
+    header .contain img {
+        width: 160px;
+        z-index: -1;
+    }
+    header .contain h1 {
+        font-size: 35px;
+    }
+    header .contain p {
+        font-size: 18px;
+        width: 80%;
+    }
+}
+
+@media (max-width:768px) {
+    header .contain img {
+        width: 60px;
+        bottom: 0;
+    }
+    header .contain h1 {
+        font-size: 30px;
+    }
+    header .contain p {
+        font-size: 16px;
+    }
+}

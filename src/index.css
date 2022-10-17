@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Cairo', sans-serif;
+}
+
+main .container {
+    display: grid;
+    justify-content: stretch;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 200px;
+}
+
+@media (max-width:992px) {
+    main .container {
+        gap: 30px;
+        padding: 40px 100px;
+    }
+}
+
+@media (max-width:768px) {
+    main .container {
+        padding: 20px;
+    }
+}

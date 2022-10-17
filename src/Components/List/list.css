@@ -1,0 +1,121 @@
+section.list .contain {
+    display: grid;
+    justify-content: stretch;
+    align-items: center;
+    gap: 30px;
+}
+
+section.list .contain ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+section.list .contain ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: capitalize;
+    word-break: break-all;
+    gap: 10px;
+    font-size: 22px;
+}
+
+section.list .contain ul.head li {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+section.list .contain ul li img {
+    width: 30px;
+}
+
+section.list .contain ul.head {
+    border-bottom: 2px solid #0099e5;
+}
+
+section.list .contain ul.item {
+    align-items: flex-start;
+}
+
+section.list .contain ul.item button {
+    outline: none;
+    border: 2px solid #0099e5;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0099e5;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 15px 5px rgb(225, 225, 225);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out all .3s;
+}
+
+section.list .contain ul.item button:hover {
+    box-shadow: none;
+}
+
+@media (max-width:992px) {
+    section.list .contain {
+        justify-content: stretch;
+        gap: 30px;
+    }
+    section.list .contain ul {
+        gap: 40px;
+        padding: 16px;
+    }
+    section.list .contain ul li {
+        gap: 8px;
+        font-size: 20px;
+    }
+    section.list .contain ul li img {
+        width: 25px;
+    }
+    section.list .contain ul.head li {
+        font-size: 22px;
+    }
+    section.list .contain ul.item button {
+        font-size: 18px;
+        padding: 8px 18px;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width:768px) {
+    section.list .contain {
+        gap: 20px;
+    }
+    section.list .contain ul {
+        gap: 30px;
+        padding: 12px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    section.list .contain ul li {
+        gap: 6px;
+        font-size: 12px;
+    }
+    section.list .contain ul.head li {
+        font-size: 16px;
+    }
+    section.list .contain ul.head li:last-child {
+        display: none;
+    }
+    section.list .contain ul li img {
+        width: 20px;
+    }
+    section.list .contain ul.item li:last-child {
+        justify-content: center;
+        width: 100%;
+    }
+    section.list .contain ul.item button {
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 2px;
+        width: 100%;
+    }
+}
