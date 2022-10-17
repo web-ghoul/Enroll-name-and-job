@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Enroll-name-and-job/static/css/main.60fffa19.css",
-    "main.js": "/Enroll-name-and-job/static/js/main.900f78fb.js",
+    "main.js": "/Enroll-name-and-job/static/js/main.74807395.js",
     "static/media/job-search.png": "/Enroll-name-and-job/static/media/job-search.ab19cbd756f9d2df356d.png",
     "static/media/scooter.svg": "/Enroll-name-and-job/static/media/scooter.0180c71be904e778b68f5b6288d5e1fe.svg",
     "static/media/id-card.png": "/Enroll-name-and-job/static/media/id-card.b72702f88a3a210a7948.png",
     "static/media/trash-bin.png": "/Enroll-name-and-job/static/media/trash-bin.61ce23a8147ef0e1d1ae.png",
     "index.html": "/Enroll-name-and-job/index.html",
     "main.60fffa19.css.map": "/Enroll-name-and-job/static/css/main.60fffa19.css.map",
-    "main.900f78fb.js.map": "/Enroll-name-and-job/static/js/main.900f78fb.js.map"
+    "main.74807395.js.map": "/Enroll-name-and-job/static/js/main.74807395.js.map"
   },
   "entrypoints": [
     "static/css/main.60fffa19.css",
-    "static/js/main.900f78fb.js"
+    "static/js/main.74807395.js"
   ]
 }
